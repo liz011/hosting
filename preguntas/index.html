@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini juego</title>
+    <link rel="stylesheet" href="preguntas.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz game</h1> <br>
+        <p>Pone a prueba tus conocimientos matematicos/logicos</p> </br>
+    </header>
+
+    <div class="container">
+        <section id="p0">
+            <h3>¿cual es el valos de PI?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 3.1416
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 3.11
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 2.14
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> 3.1433
+            </label>
+        </section>
+        <section id="p1">
+            <h3>¿Cual es la raiz de 16?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> 2
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> 4
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> 8
+            </label>
+            <label>
+                <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> 14
+            </label>
+        </section>
+        <section id="p2">
+            <h3>¿Cuál es el principal motivo por el cual la gente se divorcia?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> por dinero
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> por infidelidad
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> por el matrimonio
+            </label>
+            <label>
+                <input type="radio" value="4" name="p2" onclick="respuesta(2,this)"> por amor
+            </label>
+        </section>
+        <section id="p3">
+            <h3>¿cual es el nimero mas grande?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> 5
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> 8
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> 2
+            </label>
+            <label>
+                <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> 1
+            </label>
+            <label>
+                <input type="radio" value="5" name="p3" onclick="respuesta(3,this)"> 0
+            </label>
+        </section>
+        <section id="p4">
+            <h3>¿que sube y nunca baja?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> la edad
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> tu autoestima
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Inflacion
+            </label>
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> el peso
+            </label>
+        </section>
+        <section id="p5">
+            <h3>¿que mes tiene 29 dias ?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> febrero
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> mayo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p5" onclick="respuesta(5,this)"> todos
+            </label>
+            <label>
+                <input type="radio" value="4" name="p5" onclick="respuesta(5,this)">abril
+            </label>
+        </section>
+        <section id="p6">
+            <h3>¿Qué pasó en Londres ayer de 4 a 5 de la tarde?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> un accidente
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> una hora
+            </label>
+            <label>
+                <input type="radio" value="3" name="p6" onclick="respuesta(6,this)"> no, lo se
+            </label>
+            <label>
+                <input type="radio" value="4" name="p6" onclick="respuesta(6,this)"> eclipse
+            </label>
+        </section>
+        <section id="p7">
+            <h3>¿Qué letra pasa de ser una consonante a una vocal con tan solo darle la vuelta?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> la letra i
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> la letra f
+            </label>
+            <label>
+                <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> la letra a
+            </label>
+            <label>
+                <input type="radio" value="4" name="p7" onclick="respuesta(7,this)"> Qué letra pasa de ser una
+                consonante a una vocal con tan solo darle la vuelta
+            </label>
+
+        </section>
+        <section id="p8">
+            <h3> Hay 2 padres y 2 hijos, pero solo hay 3 personas ¿Cómo es? </h3>
+            <label>
+                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> tu y yo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> tio y abuelo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p8" onclick="respuesta(8,this)"> mama y papa
+            </label>
+            <label>
+                <input type="radio" value="4" name="p8" onclick="respuesta(8,this)"> El abuelo, el padre y el hijo
+            </label>
+        </section>
+        <section id="p9">
+            <h3> ¿Cuantos lados tiene un circulo? </h3>
+            <label>
+                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> 1
+            </label>
+            <label>
+                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> 1000000
+            </label>
+            <label>
+                <input type="radio" value="3" name="p9" onclick="respuesta(9,this)"> no tiene
+            </label>
+            <label>
+                <input type="radio" value="4" name="p9" onclick="respuesta(9,this)"> infinitos
+            </label>
+        </section>
+        <section id="p10">
+            <h3> ¿Cuantos animales subieron en la arca de moises? </h3>
+            <label>
+                <input type="radio" value="1" name="p10" onclick="respuesta(10,this)"> un par
+            </label>
+            <label>
+                <input type="radio" value="2" name="p10" onclick="respuesta(10,this)"> muchas
+            </label>
+            <label>
+                <input type="radio" value="3" name="p10" onclick="respuesta(10,this)"> todas
+            </label>
+            <label>
+                <input type="radio" value="4" name="p10" onclick="respuesta(10,this)"> ninguna
+            </label>
+        </section>
+
+        <button onclick ="corregir()">COMPROBAR</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
